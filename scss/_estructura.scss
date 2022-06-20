@@ -1,0 +1,158 @@
+.navFlex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.gridFlex {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza"
+    "nav nav"
+    "bienvenida ingresos"
+    "pie pie"
+    ;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 13% 5% 70% auto;
+}
+
+header {
+    grid-area: cabeza;
+}
+
+nav {
+    grid-area: nav;
+}
+
+span {
+    grid-area: bienvenida;
+}
+
+section {
+    grid-area: ingresos;
+}
+
+#productos {
+    grid-area: productos;
+    background-image: linear-gradient(to bottom, #525252 85%, black);
+    padding-top: 25px;
+}
+
+.gridProductos {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza"
+    "nav nav"
+    "titulo titulo"
+    "ingresos productos"
+    "pie pie"
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 13% 5% auto auto 12%;
+}
+
+.productosFlex {
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.gridOutlet {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza"
+    "nav nav"
+    "titulo titulo"
+    "ingresos ingresos"
+    "pie pie"
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 13% 5% auto auto 12%;
+}
+
+.outletFlex {
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+
+.gridVisitanos {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza"
+    "nav nav"
+    "titulo titulo"
+    "ingresos ingresos"
+    "pie pie"
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 13% 5% 10% auto 12%;
+}
+
+.visitanosFlex {
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.gridContacto {    
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza"
+    "nav nav"
+    "ingresos ingresos"
+    "pie pie"
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 13% 5% auto 12%;
+}
+
+.contactoFlex {
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+#formulario {
+    padding: 40px;
+}
+
+.flexFooter {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.indexFlex {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 100px;
+}
+
+section h2 {
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+section iframe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.indexSpanFlex {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 70px;
+    background-image: linear-gradient(to bottom, #525252 85%, black);
+}

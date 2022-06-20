@@ -1,0 +1,19 @@
+
+.transicionNav {
+    transition: all 1s;
+}
+
+.transicionNav:hover {
+    transform:scale(1.12);
+    background-color: white;
+    border-left: solid #CA3E47 7px;
+    padding-right: 5px;
+}
+
+.transicionProductos {
+    transition: all 1s;
+}
+
+.transicionProductos:hover {
+    transform:scale(1.15);
+}
